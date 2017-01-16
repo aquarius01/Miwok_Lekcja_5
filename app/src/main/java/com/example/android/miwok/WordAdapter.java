@@ -16,10 +16,12 @@
 package com.example.android.miwok;
 
 import android.content.Context;
+import android.media.MediaPlayer;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -93,6 +95,7 @@ public class WordAdapter extends ArrayAdapter<Word>  {
 
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
         // the ListView.
+
         return listItemView;
     }
 }
